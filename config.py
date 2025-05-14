@@ -12,8 +12,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
 # Local tar1090 JSON data URL
-TAR1090_JSON_URL = "http://192.168.1.2:8080/data/aircraft.json"
-TAR1090_SNAPSHOT_URL = "http://192.168.1.2:8080/tar1090/data-snapshot.png"
+TAR1090_JSON_URL = "http://yourtar1090ipHERE!/data/aircraft.json"
 
 # Default radar coordinates (overwritten by GPS sent via Telegram)
 FEEDER_LAT = 41.0732
