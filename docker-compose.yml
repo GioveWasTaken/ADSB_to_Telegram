@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  adsb-bot:
+    build: .
+    container_name: adsb-bot
+    restart: always
+    network_mode: host
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - CHAT_ID=${CHAT_ID}
+    volumes:
+      - ./settings.json:/app/settings.json
+      - ./position.json:/app/position.json
+      - ./aircraft_seen.json:/app/aircraft_seen.json
+    env_file:
+      - .env

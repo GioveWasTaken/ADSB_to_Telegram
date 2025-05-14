@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Files di configurazione locali
+settings.json
+aircraft_seen.json
+position.json
+radar_position.json

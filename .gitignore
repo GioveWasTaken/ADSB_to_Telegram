@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Files generati a runtime
+settings.json
+aircraft_seen.json
+position.json
+radar_position.json
+
+# OS
+.DS_Store
+Thumbs.db
